@@ -1,0 +1,192 @@
+.page {
+    display: flex;
+}
+.header-block{
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    width: 500px;
+    border-radius: 40px;
+    background-color:#f8f8f8;
+}
+.logo {
+    height: 50px;
+}
+
+.sidebar {
+    min-width: 300px;
+    background-color: #323232;
+    position: relative;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.sidebar ul li {
+    padding: 12px 24px;
+    padding-left: 70px;
+    cursor: pointer;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.active-link {
+    background-color: #e02c5f;
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+}
+.footer p{
+    color: #c0c0c0;
+    padding:30px;
+    text-align: center;
+}
+
+.content {}
+
+.image-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-block img {
+    flex: 1;
+    height: 250px;
+}
+
+.hotel-detail {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    color: #c0c0c0;
+    padding: 10px;
+}
+
+.location {
+    color: #e02c5f;
+    display: flex;
+    gap: 10px;
+}
+
+.location .rating {
+    background-color: #e02c5f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.description {
+    background-color: #f8f8f8;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    color: #c0c0c0;
+    gap: 50px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.detail {
+    flex: 1.5;
+    background-color: white;
+    padding: 60px;
+}
+
+.recommend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.users-img {
+    position: relative;
+}
+
+.users-img img {
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+}
+
+img:nth-child(2) {
+    left: 20px;
+}
+
+img:nth-child(3) {
+    left: 40px;
+}
+
+img:nth-child(4) {
+    left: 60px;
+}
+
+img:nth-child(5) {
+    left: 80px;
+}
+
+
+.review {
+    flex: 1;
+}
+
+.review div {
+    background-color: white;
+}
+
+.review p {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.user-profile {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.user-profile .rating {
+    color: #e02c5f;
+    font-size: 32px;
+}
+
+.user {
+    height: 50px;
+    border-radius: 50%;
+}
+.offer {
+    color: #c0c0c0;
+    font-size: 25px;
+    flex: .6;
+    text-align: center;
+}
+
+.offer button {
+    background-color: #e02c5f;
+    color: white;
+    border: none;
+    padding: 8px 56px;
+    font-size: 12px;
+    border-radius: 50px;
+}
